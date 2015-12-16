@@ -1,29 +1,41 @@
-name: 3Laws7Rules
-favicon: null
-layout_spectrum: 0.17611
-typography_spectrum: 0.75267
 title: The Three Laws and Seven Rules to Create a Harmonious Planet
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0
+  lightness: 1
+  brandStrength: 1
+  brandColors:
+    - '#FCFCFC'
+    - '#A3E0F2'
+    - '#3077B4'
+    - '#171F77'
+    - '#6F6591'
+  rhythmicContrast: 0.25
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+favicon: null
+name: 3Laws7Rules
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#2d3d5f'
-    - '#d6b2a2'
-    - '#8a5c45'
-    - '#45ae49'
-    - '#ccf0cb'
-  brandStrength: 0.25
-  lightness: 1
-  saturation: 0
-  rhythmicContrast: 0.25
-purpose: []
+typography_spectrum: 0.75267
+layout_spectrum: 0.17611
